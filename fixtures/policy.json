@@ -1,0 +1,18 @@
+{
+  "company": "Kyten Technologies",
+  "repo": "qual-loop",
+  "metrics": [
+    "kyten_coverage",
+    "whole_risk",
+    "pitch_precision",
+    "three_latency"
+  ],
+  "failure_modes": [
+    "kyten_drift",
+    "whole_gap",
+    "pitch_misroute",
+    "three_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}
