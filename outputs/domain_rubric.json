@@ -1,68 +1,57 @@
 {
   "repo": "qual-loop",
-  "company": "Kyten Technologies",
+  "company": "Qual Loop",
   "rubric_axes": [
     {
-      "axis": "kyten_coverage",
+      "axis": "evidence_coverage",
       "failures": [
-        "kyten_drift"
+        "evidence_drift"
       ],
       "evidence_required": true
     },
     {
-      "axis": "whole_risk",
+      "axis": "handoff_risk",
       "failures": [
-        "whole_gap"
+        "handoff_gap"
       ],
       "evidence_required": true
     },
     {
-      "axis": "pitch_precision",
+      "axis": "claim_precision",
       "failures": [
-        "pitch_misroute"
+        "claim_misroute"
       ],
       "evidence_required": true
     },
     {
-      "axis": "three_latency",
+      "axis": "review_latency",
       "failures": [
-        "three_blindspot"
+        "review_blindspot"
       ],
       "evidence_required": true
     }
   ],
   "archetypes": [
     {
-      "name": "kyten evidence replay",
-      "trigger": "kyten signal changes while whole context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "whole boundary probe",
-      "trigger": "whole handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "pitch regression harness",
-      "trigger": "pitch behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "three operator packet",
-      "trigger": "three output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources_used": [
-    "https://www.ycombinator.com/companies/kyten-technologies",
-    "https://www.ycombinator.com/launches/PIU-kyten-the-modern-aerospace-battery-pack-supplier",
-    "https://x.com/maddox_lucas",
-    "https://www.linkedin.com/in/lucasmaddox/",
-    "https://www.linkedin.com/in/cooper-mcbride/",
-    "https://advisingblog.ece.uw.edu/2026/03/24/wired-for-success-career-panels-cooper-mcbride-co-founder-kyten-former-space-x-4-29-330-p-m/",
-    "https://www.batterydesign.net/legislation-rules-and-regulations/un38-3-transport-test/",
-    "https://incompliancemag.com/an-overview-of-aerospace-battery-compliance/",
-    "https://ntrs.nasa.gov/api/citations/20210009584/downloads/AIAA_BatteryScaling.pdf",
-    "https://tracxn.com/d/companies/kytentech/__rCxrrADqobRURixJbkXFA9L7gyIdZbUznTW9kxtP-4Y"
-  ]
+  "sources_used": []
 }

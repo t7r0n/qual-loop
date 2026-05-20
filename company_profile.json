@@ -1,78 +1,61 @@
 {
-  "company": "Kyten Technologies",
-  "company_slug": "kyten-technologies",
+  "company": "Qual Loop",
+  "company_slug": "qual-loop",
   "repo": "qual-loop",
   "package": "qual_loop",
   "cli": "qual-loop",
   "title": "Qual Loop",
-  "problem": "Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume. The 1 week to qualify claim is the most aggressive \u2014 real world aerospace battery qualification under DO 160G + UN38.3 + customer specific abuse profiles takes 8 \u2014 16 weeks at most suppliers because test campaigns are sequential, instrumentation is hand stitched per build, and pass/fail decisions wait on a human engineer to read scope traces.",
+  "problem": "Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume. The 1 week to qualify claim is the most aggressive - real world aerospace battery qualification under DO 160G + UN38.3 + customer specific abuse profiles takes 8 - 16 weeks at most suppliers because test campaigns are sequential, instrumentation is hand stitched per build, and pass/fail decisions wait on a human engineer to read scope traces.",
   "direction": "A test orchestration runtime + digital twin for aerospace battery qualification: schedules DO 160G + UN38.3 campaigns in maximum parallel, predicts pass/fail from the first 10% of each test, and emits a regulator grade evidence bundle.",
-  "why": "Direction asymmetric early stop is non obvious. It is also the only technically honest way to defend \"1 week to qualify.\" Per datapoint content addressed provenance is the artifact a defense aerospace prime's supplier quality engineer will care about more than any feature on the homepage.",
+  "why": "This repository is intentionally project-branded rather than company-branded. It focuses on deterministic replay, source-grounded analysis, and reviewer-visible evidence paths.",
   "terms": [
-    "kyten",
-    "whole",
-    "pitch",
-    "three",
-    "cycle",
-    "design",
-    "qualify",
-    "volume",
-    "claim",
-    "aggressive",
-    "world",
-    "aerospace",
-    "battery",
-    "qualification",
-    "under",
-    "customer",
-    "specific",
-    "abuse"
+    "evidence",
+    "workflow",
+    "review",
+    "claims",
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
+    "policy",
+    "decision",
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "kyten_coverage",
-    "whole_risk",
-    "pitch_precision",
-    "three_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "kyten_drift",
-    "whole_gap",
-    "pitch_misroute",
-    "three_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
   "archetypes": [
     {
-      "name": "kyten evidence replay",
-      "trigger": "kyten signal changes while whole context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "whole boundary probe",
-      "trigger": "whole handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "pitch regression harness",
-      "trigger": "pitch behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "three operator packet",
-      "trigger": "three output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "sources": [
-    "https://www.ycombinator.com/companies/kyten-technologies",
-    "https://www.ycombinator.com/launches/PIU-kyten-the-modern-aerospace-battery-pack-supplier",
-    "https://x.com/maddox_lucas",
-    "https://www.linkedin.com/in/lucasmaddox/",
-    "https://www.linkedin.com/in/cooper-mcbride/",
-    "https://advisingblog.ece.uw.edu/2026/03/24/wired-for-success-career-panels-cooper-mcbride-co-founder-kyten-former-space-x-4-29-330-p-m/",
-    "https://www.batterydesign.net/legislation-rules-and-regulations/un38-3-transport-test/",
-    "https://incompliancemag.com/an-overview-of-aerospace-battery-compliance/",
-    "https://ntrs.nasa.gov/api/citations/20210009584/downloads/AIAA_BatteryScaling.pdf",
-    "https://tracxn.com/d/companies/kytentech/__rCxrrADqobRURixJbkXFA9L7gyIdZbUznTW9kxtP-4Y"
-  ],
+  "sources": [],
   "github_url": "https://github.com/t7r0n/qual-loop"
 }

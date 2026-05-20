@@ -53,19 +53,6 @@ uv run ruff check .
 - `outputs/strategy_model.json`
 - `outputs/demo_pack.zip`
 
-## Sources
-
-- https://www.ycombinator.com/companies/kyten-technologies
-- https://www.ycombinator.com/launches/PIU-kyten-the-modern-aerospace-battery-pack-supplier
-- https://x.com/maddox_lucas
-- https://www.linkedin.com/in/lucasmaddox/
-- https://www.linkedin.com/in/cooper-mcbride/
-- https://advisingblog.ece.uw.edu/2026/03/24/wired-for-success-career-panels-cooper-mcbride-co-founder-kyten-former-space-x-4-29-330-p-m/
-- https://www.batterydesign.net/legislation-rules-and-regulations/un38-3-transport-test/
-- https://incompliancemag.com/an-overview-of-aerospace-battery-compliance/
-- https://ntrs.nasa.gov/api/citations/20210009584/downloads/AIAA_BatteryScaling.pdf
-- https://tracxn.com/d/companies/kytentech/__rCxrrADqobRURixJbkXFA9L7gyIdZbUznTW9kxtP-4Y
-
 ## Boundary
 
 Everything runs locally against synthetic fixtures. There are no credentials, no customer records, no outreach files, and no hosted API dependency.

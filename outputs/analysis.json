@@ -1,5 +1,5 @@
 {
-  "company": "Kyten Technologies",
+  "company": "Qual Loop",
   "repo": "qual-loop",
   "cases": 144,
   "status_counts": {
@@ -9,54 +9,54 @@
   },
   "clusters": [
     {
-      "scenario": "kyten evidence replay",
+      "scenario": "claim regression harness",
+      "cases": 36,
+      "blocks": 3,
+      "reviews": 5,
+      "mean_severity": 2.528,
+      "mean_score": 0.3782,
+      "top_evidence_id": "ev_0110",
+      "recommended_action": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "scenario": "evidence replay",
       "cases": 36,
       "blocks": 4,
       "reviews": 5,
       "mean_severity": 2.611,
-      "mean_score": 0.3928,
-      "top_evidence_id": "ev_0132",
+      "mean_score": 0.4017,
+      "top_evidence_id": "ev_0000",
       "recommended_action": "block release until cited evidence is regenerated"
     },
     {
-      "scenario": "pitch regression harness",
-      "cases": 36,
-      "blocks": 3,
-      "reviews": 5,
-      "mean_severity": 2.528,
-      "mean_score": 0.3878,
-      "top_evidence_id": "ev_0066",
-      "recommended_action": "open a regression issue with trace and benchmark delta"
-    },
-    {
-      "scenario": "three operator packet",
-      "cases": 36,
-      "blocks": 4,
-      "reviews": 5,
-      "mean_severity": 2.556,
-      "mean_score": 0.4118,
-      "top_evidence_id": "ev_0099",
-      "recommended_action": "accept only if decision claims cite fixture evidence"
-    },
-    {
-      "scenario": "whole boundary probe",
+      "scenario": "handoff boundary probe",
       "cases": 36,
       "blocks": 3,
       "reviews": 4,
       "mean_severity": 2.528,
-      "mean_score": 0.3988,
+      "mean_score": 0.4078,
       "top_evidence_id": "ev_0033",
       "recommended_action": "route to reviewer with evidence packet"
+    },
+    {
+      "scenario": "review operator packet",
+      "cases": 36,
+      "blocks": 4,
+      "reviews": 5,
+      "mean_severity": 2.556,
+      "mean_score": 0.3904,
+      "top_evidence_id": "ev_0011",
+      "recommended_action": "accept only if decision claims cite fixture evidence"
     }
   ],
   "highest_risk": {
-    "scenario": "kyten evidence replay",
+    "scenario": "evidence replay",
     "cases": 36,
     "blocks": 4,
     "reviews": 5,
     "mean_severity": 2.611,
-    "mean_score": 0.3928,
-    "top_evidence_id": "ev_0132",
+    "mean_score": 0.4017,
+    "top_evidence_id": "ev_0000",
     "recommended_action": "block release until cited evidence is regenerated"
   }
 }

@@ -1,7 +1,7 @@
 [project]
 name = "qual-loop"
 version = "0.1.0"
-description = "A test orchestration runtime + digital twin for aerospace battery qualification: schedules DO 160G + UN38.3 campaigns in maximum parallel, p"
+description = "A test orchestration runtime + digital twin for aerospace battery qualification: schedules DO 160G + UN38.3 campaigns in"
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
