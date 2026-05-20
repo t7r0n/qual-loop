@@ -6,17 +6,17 @@ A test orchestration runtime + digital twin for aerospace battery qualification:
 
 ## Why it exists
 
-Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume.
+Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume. The 1 week to qualify claim is the most aggressive — real world aerospace battery qualification under DO 160G + UN38.3 + customer specific abuse profiles takes 8 — 16 weeks at most suppliers because test campaigns are sequential, instrumentation is hand.
 
-Most internal demos stop at a pretty chart. This repository is built around the harder part: a repeatable path from fixture, to failure, to evidence, to the operator action a serious team would actually trust.
+The project is intentionally built as a local replay harness instead of a slide. It creates fixtures, plants realistic failure modes, produces citation-locked evidence, and turns the result into a dashboard a reviewer can inspect without credentials or hosted services.
 
 ## What is inside
 
-- A deterministic replay harness tuned around kyten, whole, and pitch.
-- Company-specific strategy code in `src/qual_loop/strategy.py`, not just README-level customization.
-- Citation-locked reports where every decision claim has to point back to a generated evidence ID.
-- Two visual artifacts generated from the latest run: `outputs/project_working.svg` and `outputs/evidence_map.svg`.
-- A portable demo pack with JSON, CSV, Markdown, HTML, SVG, and benchmark artifacts.
+- Deterministic fixture generation for the company-specific risk surface.
+- Strategy code in `src/qual_loop/strategy.py` with project-specific scoring and visual evidence.
+- Citation-locked reports where every decision claim points to a generated evidence ID.
+- Two regenerated visual artifacts: `outputs/project_working.svg` and `outputs/evidence_map.svg`.
+- A portable demo pack with JSON, CSV, Markdown, HTML, SVG, benchmark, and test artifacts.
 
 ![Qual Loop evidence map](outputs/evidence_map.svg)
 

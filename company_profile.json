@@ -5,7 +5,7 @@
   "package": "qual_loop",
   "cli": "qual-loop",
   "title": "Qual Loop",
-  "problem": "Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume. The 1 week to qualify claim is the most aggressive - real world aerospace battery qualification under DO 160G + UN38.3 + customer specific abuse profiles takes 8 - 16 weeks at most suppliers because test campaigns are sequential, instrumentation is hand stitched per build, and pass/fail decisions wait on a human engineer to read scope traces.",
+  "problem": "Kyten's whole pitch is a three week cycle: 1 week to design -> 1 week to qualify -> 1 week to volume. The 1 week to qualify claim is the most aggressive \u2014 real world aerospace battery qualification under DO 160G + UN38.3 + customer specific abuse profiles takes 8 \u2014 16 weeks at most suppliers because test campaigns are sequential, instrumentation is hand stitched per build, and pass/fail decisions wait on a human engineer to read scope traces.",
   "direction": "A test orchestration runtime + digital twin for aerospace battery qualification: schedules DO 160G + UN38.3 campaigns in maximum parallel, predicts pass/fail from the first 10% of each test, and emits a regulator grade evidence bundle.",
   "why": "Direction asymmetric early stop is non obvious. It is also the only technically honest way to defend \"1 week to qualify.\" Per datapoint content addressed provenance is the artifact a defense aerospace prime's supplier quality engineer will care about more than any feature on the homepage.",
   "terms": [
