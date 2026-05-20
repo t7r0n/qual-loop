@@ -1,6 +1,6 @@
 # Operator Brief: Kyten Technologies
 
-Kyten Technologies gets a local, deterministic pressure test around kyten, whole, and pitch. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action.
+Kyten Technologies gets a local, deterministic pressure test around kyten, whole, and pitch. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 
